@@ -1,0 +1,16 @@
+function fact(n)
+    if n < 0 then
+        print("Cannot input a negative number")
+        return 1
+    end
+
+    if n == 0 then
+        return 1
+    else
+        return n * fact(n-1)
+    end
+end
+
+print("enter a number:")
+a = io.read("*n")
+print(fact(a))
