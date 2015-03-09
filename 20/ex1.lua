@@ -1,5 +1,5 @@
 function rconcat(l, sep)
-    local sep = sep or " "
+    sep = sep or " "
     
     if type(l) ~= "table" then
         return l
